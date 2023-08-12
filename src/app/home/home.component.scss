@@ -1,0 +1,153 @@
+
+.home-caption {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+.home-caption h1 {
+  color: var(--base-color);
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 24px;
+  margin-bottom: 1rem;
+}
+
+.home-caption h4 {
+  position: relative;
+  font-weight: 300;
+  font-size: 26px;
+  text-transform: capitalize;
+  line-height: 1.2;
+  color: var(--base-color);
+  display: inline-block;
+}
+.home-caption h4::after {
+  content: " ";
+  letter-spacing: 2px;
+  animation-name: typing;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  3% {
+    content: "D |";
+  }
+  6% {
+    content: "De |";
+  }
+  9% {
+    content: "Des |";
+  }
+  12% {
+    content: "Desi |";
+  }
+  15% {
+    content: "Desig |";
+  }
+  18% {
+    content: "Design |";
+  }
+  21% {
+    content: "Designe |";
+  }
+  24% {
+    content: "Designer |";
+  }
+  25% {
+    content: "Designer |";
+  }
+  26% {
+    content: "Designer |";
+  }
+  27% {
+    content: "Designer |";
+  }
+  28% {
+    content: "Designe |";
+  }
+  30% {
+    content: "Design |";
+  }
+  33% {
+    content: "Desig |";
+  }
+  36% {
+    content: "Desi |";
+  }
+  39% {
+    content: "Des |";
+  }
+  42% {
+    content: "De |";
+  }
+  45% {
+    content: "D |";
+  }
+  48% {
+    content: "|";
+  }
+  51% {
+    content: "D |";
+  }
+  54% {
+    content: "De |";
+  }
+  57% {
+    content: "Dev |";
+  }
+  60% {
+    content: "Deve |";
+  }
+  63% {
+    content: "Devel |";
+  }
+  66% {
+    content: "Deevelo |";
+  }
+  69% {
+    content: "Develop |";
+  }
+  72% {
+    content: "Develope |";
+  }
+  75% {
+    content: "Developer |";
+  }
+  78% {
+    content: "Develope |";
+  }
+  81% {
+    content: "Develop |";
+  }
+  84% {
+    content: "Develo |";
+  }
+  87% {
+    content: "Devel |";
+  }
+  90% {
+    content: "Deve |";
+  }
+  93% {
+    content: "Dev |";
+  }
+  96% {
+    content: "De |";
+  }
+  98% {
+    content: "D |";
+  }
+  100% {
+    content: " |";
+  }
+}
